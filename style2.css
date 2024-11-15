@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+html,body{
+    height: 100;
+    width: 100;
+    background-color: pink;
+}
+#main{
+    height: 100%;
+    width: 100%; 
+    rotate: 45deg;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.shape{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width:200px;
+   border: 1px solid black;
+}
+ #sq:hover{
+    background-color: blue;
+}
+#sqa:hover{
+    background-color:greenyellow;
+}
+#sqar:hover{
+    background-color:red;
+}
+#sqare:hover{
+    background-color: rgb(255, 106, 0);
+}
